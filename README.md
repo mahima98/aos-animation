@@ -2,6 +2,10 @@
 
 # Dynamic data rendering
 
-# Designed illustrations from 'sapiens.ui8.net'
+## Frameworks and Tools:
 
-# Cool animations using AOS
+- ViteJs
+- ReactJs
+- TailwindCSS
+- AOS- for cool animations
+- sapiens.ui8.net - to design free illustrations
