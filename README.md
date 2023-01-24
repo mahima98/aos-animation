@@ -9,3 +9,4 @@
 - TailwindCSS
 - AOS- for cool animations
 - sapiens.ui8.net - to design free illustrations
+- SwiperJs - for testimonial slides
