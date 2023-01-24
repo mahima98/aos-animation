@@ -1,9 +1,9 @@
 import React from "react";
 import { testimonialsData } from "../data";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "../slider.css";
+import "swiper/css/bundle";
 
 import { Pagination } from "Swiper";
 
