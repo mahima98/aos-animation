@@ -4,7 +4,7 @@ import TestimonialSlider from "./TestimonialSlider";
 const Testimonials = () => {
   return (
     <section className="relative">
-      <div className="container mx-auto">
+      {/* <div className="container mx-auto">
         <div
           className=" bg-accent-primary min-h-[800px] rounded-[50px]"
           data-aos="fade-up"
@@ -15,7 +15,7 @@ const Testimonials = () => {
             <TestimonialSlider />
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
