@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Features from "./components/Features";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 function App() {
   Aos.init({
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Features />
       <Testimonials />
+      <Footer />
     </div>
   );
 }

@@ -41,7 +41,7 @@ const Features = () => {
                   data-aos="zoom-in-right"
                   data-aos-delay={delay}
                 >
-                  <img src={image} alt="" srcset="" />
+                  <img src={image} alt="" />
                 </div>
                 <div className="description max-w-[220px]">
                   <h3 className="mb-4">{title}</h3>

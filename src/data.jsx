@@ -99,24 +99,24 @@ export const featuresData = {
 export const testimonialsData = [
   {
     image: Avatar1Img,
-    name: "John Fang",
-    web: "wordfaang.com",
+    name: "Ramgolam Mahima",
+    web: "mahima.ramgolam.com",
     message:
       "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
     delay: "300",
   },
   {
     image: Avatar2Img,
-    name: "Jane Doe",
-    web: "janedoee.com",
+    name: "Mahita Ramgo",
+    web: "mahita.com",
     message:
       "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
     delay: "600",
   },
   {
     image: Avatar3Img,
-    name: "Jim Ferry",
-    web: "jimjimf.com",
+    name: "Sandeep",
+    web: "sandeep.ramgolam.com",
     message:
       "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
     delay: "900",
@@ -192,6 +192,6 @@ export const footerData = {
 };
 
 export const copyrightData = {
-  text: "© Datawarehouse™, 2020. All rights reserved. Company Registration Number: 21479524.",
+  text: "©Copyright 2023, Ramgolam Mahima",
   icon: <BsChatDotsFill />,
 };
