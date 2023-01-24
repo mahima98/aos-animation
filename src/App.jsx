@@ -4,6 +4,7 @@ import "./App.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 function App() {
   Aos.init({
@@ -13,6 +14,7 @@ function App() {
   return (
     <div>
       <Hero />
+      <About />
     </div>
   );
 }

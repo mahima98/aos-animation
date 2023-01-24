@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="flex flex-col xl:flex-row items-center h-full md:py-24">
           <div className="text text-center xl:text-left xl:absolute xl:mb-12">
             <h1
-              className="h1 xl:max-w-[700px] mb-6 xl:mb-12"
+              className="xl:max-w-[700px] mb-6 xl:mb-12"
               data-aos="fade-down"
               data-aos-delay="400"
             >
