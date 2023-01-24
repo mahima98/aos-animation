@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-// import reactLogo from './assets/react.svg'
 import "./App.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Features from "./components/Features";
 
 function App() {
   Aos.init({
@@ -15,6 +15,7 @@ function App() {
     <div>
       <Hero />
       <About />
+      <Features />
     </div>
   );
 }
