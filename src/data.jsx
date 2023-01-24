@@ -13,6 +13,7 @@ import Avatar2Img from "../src/assets/img/testimonials/avatar2.png";
 import Avatar3Img from "../src/assets/img/testimonials/avatar3.png";
 import LogoV2 from "../src/assets/img/logo-v2.png";
 import HeroImage from "../src/assets/img/hero-img.png";
+import IllustrationHero from "../src/assets/SVG/illustration-hero.svg";
 import Feature1BgImg from "../src/assets/img/features/feature1_bg.png";
 import Feature2BgImg from "../src/assets/img/features/feature2_bg.png";
 import Feature3BgImg from "../src/assets/img/features/feature3_bg.png";
@@ -42,7 +43,7 @@ export const heroData = {
   subtitle:
     "Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.",
   btnText: "Learn more",
-  image: HeroImage,
+  image: IllustrationHero,
 };
 
 export const aboutData = {
