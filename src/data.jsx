@@ -12,7 +12,6 @@ import Avatar1Img from "../src/assets/img/testimonials/avatar1.png";
 import Avatar2Img from "../src/assets/img/testimonials/avatar2.png";
 import Avatar3Img from "../src/assets/img/testimonials/avatar3.png";
 import LogoV2 from "../src/assets/img/logo-v2.png";
-import HeroImage from "../src/assets/img/hero-img.png";
 import IllustrationHero from "../src/assets/svg/illustration-hero.svg";
 import Feature1BgImg from "../src/assets/img/features/feature1_bg.png";
 import Feature2BgImg from "../src/assets/img/features/feature2_bg.png";
