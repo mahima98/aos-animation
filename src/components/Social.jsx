@@ -6,7 +6,7 @@ export default function Social() {
       data-aos-delay="300"
     >
       <a
-        href="https://github.com/mahima98"
+        href="https://github.com/mahima98/aos-animation"
         className="flex justify-center items-center gap-1 group"
       >
         <span className="text-md">View project on</span>
