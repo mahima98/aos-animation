@@ -1,12 +1,24 @@
-# A data warehouse landing page with cool animations.
+## A webpage with AOS cool animations examples.
 
-# Dynamic data rendering
+<img src="public/aosWebpage.png"/>
 
-## Frameworks and Tools:
+### Dynamic data rendering
+
+### Frameworks and Tools:
 
 - ViteJs
 - ReactJs
 - TailwindCSS
 - AOS- for cool animations
 - sapiens.ui8.net - to design free illustrations
-- SwiperJs - for testimonial slides
+  <br/>
+
+##### Project setup
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```

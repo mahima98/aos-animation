@@ -1,26 +1,25 @@
 import React, { useState } from "react";
 
-import Logo from "../assets/img/logo.png";
+import Logo from "../assets/img/flowerLogo.png";
 import Nav from "../components/Nav";
 import NavMobile from "../components/NavMobile";
 
 import { FaBars } from "react-icons/fa";
-import { BsArrowRight } from "react-icons/bs";
 
 const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
   return (
-    <header
-      className="mb-12 lg:mb-0 z-20 relative px-4 lg:px-0"
-      data-aos="fade-down"
-      data-aos-delay="1200"
-      data-aos-duration="1000"
-    >
+    <header className="mb-12 lg:mb-0 z-20 relative px-4 lg:px-0">
       <div className=" container mx-auto">
         <div className="relative flex items-center justify-between">
-          <div className="flex items-center gap-x-[110px]">
+          <div
+            className="flex items-center gap-x-[110px]"
+            data-aos="zoom-in"
+            data-aos-delay="1200"
+            data-aos-duration="1000"
+          >
             <a href="#">
-              <img src={Logo} alt="" />
+              <img src={Logo} alt="" className="w-10" />
             </a>
 
             <div className="hidden lg:flex">
@@ -35,11 +34,6 @@ const Header = () => {
           >
             <NavMobile />
           </div>
-
-          <button className="btn btn-quaternary flex items-center gap-x-[20px] group">
-            Request Demo{" "}
-            <BsArrowRight className="text-2xl text-accent-primary group-hover:text-white transition" />
-          </button>
 
           <div
             onClick={() => setNavMobile(!navMobile)}

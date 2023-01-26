@@ -17,19 +17,31 @@ const Features = () => {
           >
             {title}
           </h2>
-          <p className="lead max-w-[584px] mx-auto mb-16 xl:mb-24">
+          <p
+            className="lead max-w-[584px] mx-auto mb-16 xl:mb-24"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          >
             {subtitle}
           </p>
         </div>
         <div className="feature-list grid grid-cols-1 gap-[50px] lg:grid-cols-2">
           {list.map((feature, index) => {
-            const { image, bgImage, title, description, linkText, delay } =
-              feature;
+            const {
+              image,
+              bgImage,
+              title,
+              description,
+              linkText,
+              delay,
+              animation,
+              linkUrl,
+            } = feature;
             return (
               <div
                 className="feature-list-wrapper w-full max-w-[540px] mx-auto h-[358px] relative flex flex-col items-center justify-center xl:flex-row xl:justify-start"
                 key={index}
-                data-aos="zoom-in"
+                data-aos={animation}
                 data-aos-offset="100"
                 data-aos-delay={delay}
               >
@@ -47,7 +59,7 @@ const Features = () => {
                   <h3 className="mb-4">{title}</h3>
                   <p className="font-light italic mb-4">{description}</p>
                   <div className="flex items-center gap-x-2 group">
-                    <a href="" className=" text-primary font-bold">
+                    <a href={linkUrl} className=" text-primary font-bold">
                       {linkText}
                     </a>
                     <BsArrowRight className="text-xl text-accent-primary group-hover:ml-[5px] transition-all" />

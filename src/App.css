@@ -39,6 +39,6 @@
     @apply text-[24px];
   }
   .lead {
-    @apply text-lg text-secondary font-secondary font-medium leading-relaxed;
+    @apply text-xl text-secondary font-secondary font-medium leading-relaxed;
   }
 }

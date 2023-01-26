@@ -18,80 +18,88 @@ import Feature2BgImg from "../src/assets/img/features/feature2_bg.png";
 import Feature3BgImg from "../src/assets/img/features/feature3_bg.png";
 import Feature4BgImg from "../src/assets/img/features/feature4_bg.png";
 
-export const navigationData = [
-  {
-    name: "About",
-    href: "#",
-  },
-  {
-    name: "Help",
-    href: "#",
-  },
-  {
-    name: "Features",
-    href: "#",
-  },
-  {
-    name: "Signup",
-    href: "#",
-  },
-];
+// export const navigationData = [
+//   {
+//     name: "About",
+//     href: "#",
+//   },
+//   {
+//     name: "Help",
+//     href: "#",
+//   },
+//   {
+//     name: "Features",
+//     href: "#",
+//   },
+//   {
+//     name: "Signup",
+//     href: "#",
+//   },
+// ];
 
 export const heroData = {
-  title: ` Save your data storage here.`,
+  title: `An open source AOS template`,
   subtitle:
-    "Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.",
+    "Built with ReactJS, TailwindCSS and AOS animation. I designed the first illustration myself using character builder by sapiens.ui8.net",
   btnText: "Learn more",
   image: IllustrationHero,
 };
 
 export const aboutData = {
   image: AboutImg,
-  title: "We are a high-level data storage bank",
+  title: "Using AOS - animate on scroll library",
   subtitle:
-    "The place to store various data that you can access at any time through the internet  and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse.",
+    "In this template I am using AOS animation, it has different cool settings. It can fade-up, fade-dow, zoom-in-right, zoom-in-left, etc.. We can control the duration, delay, offset and many more.",
 };
 
 export const featuresData = {
-  title: "Features",
+  title: "AOS Options",
   subtitle:
-    "Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.",
+    "Some of the AOS options provided from the library. The 4 sections below is being animation using different animations.",
   list: [
     {
       image: Feature1Img,
       bgImage: Feature1BgImg,
-      title: "Search Data",
+      title: "Fade animations",
       description:
-        "Don’t worry if your data is very large, the Data Warehouse provides a search engine, which is useful for making it easier to find data effectively saving time.",
+        "fade-up is being used for this box animation. Other Fade animation include fade-up, fade-down,fade-left, fade-right, fade-up-right, fade-up-left, fade-down-right, fade-down-left",
       linkText: "Learn more",
       delay: "400",
+      animation: "fade-up",
+      linkUrl: "https://github.com/michalsnik/aos",
     },
     {
       image: Feature2Img,
       bgImage: Feature2BgImg,
-      title: "24 Hours Access",
+      title: "Flip animations",
       description:
-        "Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent..",
+        "flip-up is being used for this box animation. other Flip animation includes flip-up, flip-down, flip-left, flip-right",
       linkText: "Learn more",
       delay: "700",
+      animation: "flip-up",
+      linkUrl: "https://github.com/michalsnik/aos",
     },
     {
       image: Feature3Img,
       bgImage: Feature3BgImg,
-      title: "Print Out",
+      title: "Slide animations",
       description:
-        "Print out service gives you convenience if someday you need print data, just edit it all and just print it.",
+        "slide-left is being used for this box animation. other Slide animation includes slide-up, slide-down, slide-left, slide-right",
       linkText: "Learn more",
       delay: "1000",
+      animation: "slide-left",
+      linkUrl: "https://github.com/michalsnik/aos",
     },
     {
       image: Feature4Img,
       bgImage: Feature4BgImg,
-      title: "Security Code",
+      title: "Zoom animations",
       description:
-        "Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password than you created, so only you can open the file.",
+        "zoom-in-left is being used for this box animation. other Zoom animation includes zoom-in, zoom-in-up, zoom-in-down, zoom-in-left, zoom-in-right, zoom-out, zoom-out-up, zoom-out-down, zoom-out-left, zoom-out-right",
       linkText: "Learn more",
       delay: "1300",
+      animation: "zoom-in-right",
+      linkUrl: "https://github.com/michalsnik/aos",
     },
   ],
 };
