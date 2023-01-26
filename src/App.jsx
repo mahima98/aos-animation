@@ -6,7 +6,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
-import Social from "./components/social";
+import Social from "./components/Social";
 
 function App() {
   Aos.init({
