@@ -38,7 +38,7 @@
   h3 {
     @apply text-[24px];
   }
-  .lead {
+  p {
     @apply text-xl text-secondary font-secondary font-medium leading-relaxed;
   }
 }

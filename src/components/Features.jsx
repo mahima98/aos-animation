@@ -57,7 +57,9 @@ const Features = () => {
                 </div>
                 <div className="description max-w-[220px]">
                   <h3 className="mb-4">{title}</h3>
-                  <p className="font-light italic mb-4">{description}</p>
+                  <p className="font-light italic mb-4 text-sm">
+                    {description}
+                  </p>
                   <div className="flex items-center gap-x-2 group">
                     <a href={linkUrl} className=" text-primary font-bold">
                       {linkText}

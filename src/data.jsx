@@ -47,22 +47,22 @@ export const heroData = {
 
 export const aboutData = {
   image: AboutImg,
-  title: "Using AOS - animate on scroll library",
+  title: "AOS - an animate on scroll library",
   subtitle:
-    "In this template I am using AOS animation, it has different cool settings. It can fade-up, fade-dow, zoom-in-right, zoom-in-left, etc.. We can control the duration, delay, offset and many more.",
+    "In this template I am using AOS animation, It has different cool options to animate an element, some of which are being demonstrated in this template. Below showcase a few examples.",
 };
 
 export const featuresData = {
   title: "AOS Options",
   subtitle:
-    "Some of the AOS options provided from the library. The 4 sections below is being animation using different animations.",
+    "AOS options provided from the library. These 4 sections below are being animated using the fade, flip, slide and slide animations.",
   list: [
     {
       image: Feature1Img,
       bgImage: Feature1BgImg,
       title: "Fade animations",
       description:
-        "fade-up is being used for this box animation. Other Fade animation include fade-up, fade-down,fade-left, fade-right, fade-up-right, fade-up-left, fade-down-right, fade-down-left",
+        "Using 'fade-up' for this grid. Other Fade animation include fade-up, fade-down,fade-left, fade-right, fade-up-right, fade-up-left, fade-down-right, fade-down-left",
       linkText: "Learn more",
       delay: "400",
       animation: "fade-up",
@@ -73,7 +73,7 @@ export const featuresData = {
       bgImage: Feature2BgImg,
       title: "Flip animations",
       description:
-        "flip-up is being used for this box animation. other Flip animation includes flip-up, flip-down, flip-left, flip-right",
+        "Using 'flip-up' for this grid. other Flip animation includes flip-up, flip-down, flip-left, flip-right",
       linkText: "Learn more",
       delay: "700",
       animation: "flip-up",
@@ -84,7 +84,7 @@ export const featuresData = {
       bgImage: Feature3BgImg,
       title: "Slide animations",
       description:
-        "slide-left is being used for this box animation. other Slide animation includes slide-up, slide-down, slide-left, slide-right",
+        "Using 'slide-left' for this grid. other Slide animation includes slide-up, slide-down, slide-left, slide-right",
       linkText: "Learn more",
       delay: "1000",
       animation: "slide-left",
@@ -95,7 +95,7 @@ export const featuresData = {
       bgImage: Feature4BgImg,
       title: "Zoom animations",
       description:
-        "zoom-in-left is being used for this box animation. other Zoom animation includes zoom-in, zoom-in-up, zoom-in-down, zoom-in-left, zoom-in-right, zoom-out, zoom-out-up, zoom-out-down, zoom-out-left, zoom-out-right",
+        "Using 'zoom-in-left' for this grid. other Zoom animation includes zoom-in, zoom-in-up, zoom-in-down, zoom-in-left, zoom-in-right, zoom-out, zoom-out-up, zoom-out-down, zoom-out-left, zoom-out-right",
       linkText: "Learn more",
       delay: "1300",
       animation: "zoom-in-right",
