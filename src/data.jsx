@@ -3,7 +3,7 @@ import { FaYoutube, FaInstagram, FaGithub } from "react-icons/fa";
 import { BsChatDotsFill } from "react-icons/bs";
 
 // import images
-import AboutImg from "../src/assets/img/about.png";
+import AboutImg from "../src/assets/svg/illustration-1.svg";
 import Feature1Img from "../src/assets/img/features/feature1.png";
 import Feature2Img from "../src/assets/img/features/feature2.png";
 import Feature3Img from "../src/assets/img/features/feature3.png";
